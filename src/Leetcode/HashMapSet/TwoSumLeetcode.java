@@ -1,9 +1,12 @@
-package Leetcode.Array;
+package Leetcode.HashMapSet;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSumLeetcode {
+
+    // 1. TwoSum - Easy
+
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> complementsIndex = new HashMap<>();
 
